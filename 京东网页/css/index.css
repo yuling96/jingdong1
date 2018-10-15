@@ -1,0 +1,159 @@
+.banner604{
+    position:relative;
+}
+.banner604 a{
+   width:100%;
+    height:604px;
+    position: absolute;
+    background: url("../images/banner.jpg") no-repeat center top;
+}
+.main{
+
+
+    position:relative;
+}
+ .slider{
+    float:left;
+    margin:12px 0 0 220px;
+    width:730px;
+    height:453px;
+     position: relative;
+}
+.circle{
+    position: absolute;
+    bottom:8px;
+    left: 50%;
+    margin-left: -66px;
+}
+.circle li{
+    float:left;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #3E3E3E;
+    text-align: center;
+    line-height: 18px;
+    color: #fff;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.circle li.current{
+    background-color:#B61B1F ;
+}
+.arrow-l, .arrow-r {
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    top: 50%;
+    margin-top: -31px;
+    color: #fff;
+    font: 500 18px/62px "宋体";
+    text-align: center;
+    background: rgba(0,0,0,.2);
+}
+.arrow-l {
+    left: 0;
+}
+.arrow-r {
+    right: 0;
+}
+.arrow-l:hover,.arrow-r:hover {
+    background: rgba(0,0,0,.4);
+    color: #fff;
+}
+.main .news{
+     float:right;
+     position:relative;
+    height:453px;
+    width:248px;
+    margin-top:12px;
+    border:1px solid #E4E4E4;
+}
+.news .jd_news{
+    height:200px;
+
+}
+ .jd_news .dt, .lifeservice .dt{
+    height:43px;
+    line-height: 43px;
+
+    border-bottom:1px dotted #666666 ;
+}
+.jd_news .dt h3,.lifeservice .dt h3{
+    font:14px/43px "微软雅黑";
+    float:left;
+
+}
+.jd_news .dt a{
+    float:right;
+    font:12px/43px "微软雅黑"
+}
+.jd_news .dd{
+    height:135px;
+    border-bottom:1px dashed #666666;
+    padding:10px 0 10px  16px;
+}
+.jd_news .dd li{
+    line-height: 27px;
+}
+.jd_news .dd li span{
+    font:bold 12px/27px "黑体";
+}
+.news .lifeservice {
+    height: 251px;
+    width: 248px;
+    overflow: hidden;
+}
+.lifeservice  ul{
+    width:252px;
+}
+.lifeservice ul li{
+    width:62px;
+    height:70px;
+    border:1px solid #E4E4E4;
+    float: left;
+    margin-left:-1px;
+}
+.lifeservice ul li a{
+    height:70px;
+    display:block;
+    text-align: center;
+    padding-top: 45px;
+    position: relative;
+}
+.lifeservice ul li i{
+    position: absolute;
+    width:25px;
+    height: 26px;
+    top:12px;
+    left:18px;
+    background: url(../images/icon_lifeserv.png) no-repeat right top;
+}
+.lifeservice-icon2 a i {
+    background-position: right -20px;
+}
+.lifeservice .song {
+    background: url(../images/song.png) no-repeat right top;
+}
+
+
+/*11 huodong*/
+.todays {
+    position: relative;
+}
+.night {
+    margin: 10px 0 28px 0;
+}
+.night-r {
+    width:1000px;
+    height: 160px;
+    float: right;
+}
+.night-r ul {
+    width: 500%;
+
+}
+.night-r li {
+    float: left;
+    margin-right: 1px;
+}
